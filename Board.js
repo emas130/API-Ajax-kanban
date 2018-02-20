@@ -23,7 +23,7 @@ $('.create-column')
 				name: columnName
 			},
 			success: function(response){
-					var column = new Column(response.id, columnName); n
+					var column = new Column(response.id, columnName); 
 					board.createColumn(column);
 			}	
 		}); 
