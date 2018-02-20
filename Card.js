@@ -18,7 +18,6 @@ function Card(id, name) {
 		$cardDeleteButton.append($cardDeleteSymbol);
 		$card.append($cardDeleteButton).append($cardDescription);
 
-		console.log($card);
 		return $card;
 	}
 }
